@@ -92,8 +92,7 @@ All drivers are implemented without HAL function calls from ground up
 
 ---
 
-## 📂 Project Structure
-.
+##  Project Structure
 ├── drivers/
 │ ├── Inc/ # Driver headers
 │ └── Src/ # Driver implementations
@@ -105,7 +104,7 @@ All drivers are implemented without HAL function calls from ground up
 
 ---
 
-## 🚀 Development Setup
+##  Development Setup
 
 ### Requirements
 - STM32 development board
