@@ -96,20 +96,11 @@ All drivers are implemented without HAL function calls from ground up
 ```
 .
 ├── Drivers
-│   ├── Inc
-│   │   └── gpio.h
-│   │   └── i2c.h
-│   │   └── lcd.h
-│   ├── Src
-│   │   └── gpio.c
-│   │   └── i2c.c
-│   │   └── lcd.c
-├── Inc
-│   └── main.h
-├── Src
-│   └── main.c
-├── Startup
-│   └── startup_stm32.s
+│   ├── Inc  #Driver headers
+│   ├── Src  #Driver implementations
+├── Inc      #Application headers
+├── Src      #Application source files 
+├── Startup  #Startup code and vector table
 ├── README.md
 ```
 
