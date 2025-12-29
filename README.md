@@ -85,12 +85,10 @@ This flow was implemented deliberately to understand how **high-level data ultim
 | GPIO_Init() | Configures GPIO modes, speed, pull-ups |
 | I2C_Init() | Sets up I2C timing, addressing, enable |
 | I2C_Write() | Implements START, data transfer, STOP |
-| LCD_Init() | LCD initialization sequence |
-| LCD_SendCmd() | Sends LCD commands via I2C |
-| LCD_SendData() | Sends display data |
-| LCD_Print() | High-level LCD output function |
+| lcd_Init() | LCD initialization sequence |
+| LCD_print_string() | Prints any string on the LCD |
 
-All drivers are implemented without HAL function calls.
+All drivers are implemented without HAL function calls from ground up
 
 ---
 
@@ -112,9 +110,9 @@ All drivers are implemented without HAL function calls.
 ### Requirements
 - STM32 development board
 - STM32CubeIDE or equivalent GCC-based toolchain
-- CMSIS headers
-- I2C LCD module
-- Basic debugging tools (USART / debugger)
+- CMSIS headers (if needed)
+- LCD (16X02) module
+- Basic debugging tools (through Stm's debugging interface)
 
 ---
 
@@ -125,8 +123,6 @@ All drivers are implemented without HAL function calls.
 - Clear understanding of I2C transaction flow
 - Practical experience interfacing external hardware
 - Better foundation for firmware and SoC-level work
-
-This project prioritizes **fundamentals over convenience**.
 
 ---
 
