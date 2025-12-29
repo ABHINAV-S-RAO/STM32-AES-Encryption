@@ -93,12 +93,14 @@ All drivers are implemented without HAL function calls from ground up
 ---
 
 ##  Project Structure
-├── drivers/
-│ ├── Inc/ # Driver headers
-│ └── Src/ # Driver implementations
-├── Inc
-├── Src
-├── Startup
+
+.
+├── Drivers/
+│   ├── Inc/        # Driver headers
+│   └── Src/        # Driver implementations
+├── Inc/            # Application headers
+├── Src/            # Application source files
+├── Startup/        # Startup code and vector table
 ├── README.md
 
 
