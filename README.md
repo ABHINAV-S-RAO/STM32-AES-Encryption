@@ -1,6 +1,6 @@
-#STM32- AES Encryption 
+# STM32- AES Encryption 
 
-##STM32 Peripheral Driver Development Project
+## STM32 Peripheral Driver Development Project
 
 This project focuses on **from-scratch implementation of STM32 peripherals** to gain a deep, practical understanding of microcontroller internals and data movement.
 
