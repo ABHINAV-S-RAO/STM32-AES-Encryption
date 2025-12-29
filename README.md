@@ -93,7 +93,7 @@ All drivers are implemented without HAL function calls from ground up
 ---
 
 ##  Project Structure
-
+```
 .
 ├── Drivers
 │   ├── Inc
@@ -111,7 +111,7 @@ All drivers are implemented without HAL function calls from ground up
 ├── Startup
 │   └── startup_stm32.s
 ├── README.md
-
+```
 
 ---
 
