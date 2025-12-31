@@ -18,6 +18,14 @@ This project is intentionally designed to emphasize:
 
 
 ---
+## Project working 
+[![I2C-Implementation Demo]]((https://github.com/user-attachments/assets/6aec5efe-f2fd-4690-a247-f37ce091d6ee))
+
+
+https://github.com/user-attachments/assets/6aec5efe-f2fd-4690-a247-f37ce091d6ee
+
+
+---
 
 ## Features
 
